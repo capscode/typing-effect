@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap);
+
+body{
+	background-color:#000000
+}
+
+#continer{
+	padding-top: 50px;
+}
+.text{
+    width: 24em;
+	  color: #66ff00;
+    border-right: 2px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+	  font-family: 'Yusei Magic', sans-serif;
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 30em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: red;}
+  to{border-right-color: transparent;}
+  
+}
